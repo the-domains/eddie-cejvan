@@ -1,28 +1,40 @@
-name: Eddie Cejvan
 favicon: null
-layout_spectrum: 0.5178911914117634
-typography_spectrum: 0.5211321613751352
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Eddie Cejvan
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#FF6700'
-    - '#EBEBEB'
-    - '#C0C0C0'
-    - '#3A6EA5'
-    - '#004E98'
-  brandStrength: 0.5366208821069449
-  lightness: 0.5437278531026095
-  saturation: 0.4799628413747996
-  rhythmicContrast: 0.2770662058610469
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.4444444
+  brandStrength: 0.5752688
+  lightness: 0.2795699
+  brandColors:
+    - '#171515'
+    - '#B3A489'
+    - '#FFFEFF'
+    - '#6E4A28'
+    - '#E09130'
+  rhythmicContrast: 0.3566308
+typography_spectrum: 0.5949821
+layout_spectrum: 0.5519713
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
